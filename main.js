@@ -22,29 +22,12 @@ setInterval(function () {
     query('.miliseconds').textContent = 'miliseconds  ' + miliSeconds;
 }, 1)
 
-
-
-// query('.button').addEventListener('click',function bigHeart(){
-//     query('.part1').classList.add('bigheard');
-//     query('.part2').classList.add('bigheard');
-//     query('.part2').style.left = '51px';
-//     query('.part1').style.left = '0';
-// })
-
-// query('.button2').addEventListener('click',function smallHeart(){
-//     query('.part1').classList.remove('bigheard');
-//     query('.part2').classList.remove('bigheard');
-//     query('.part1').style.left = '36px';
-//     query('.part2').style.left = '72px';
-// })
-
 function smallHeart(){
     query('.part1').classList.remove('bigheard');
     query('.part2').classList.remove('bigheard');
     query('.part1').style.left = '36px';
     query('.part2').style.left = '72px';
 }
-
 
 function bigHeart(){
     query('.part1').classList.add('bigheard');
